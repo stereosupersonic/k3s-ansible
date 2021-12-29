@@ -58,3 +58,8 @@ To get access to your **Kubernetes** cluster just
 ```bash
 scp debian@master_ip:~/.kube/config ~/.kube/config
 ```
+
+
+## kubeconfig
+
+KUBECONFIG=~/.kube/config-k3s-pi kubectl get nodes
