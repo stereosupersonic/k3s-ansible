@@ -62,4 +62,6 @@ scp debian@master_ip:~/.kube/config ~/.kube/config
 
 ## kubeconfig
 
-KUBECONFIG=~/.kube/config-k3s-pi kubectl get nodes
+```bash
+KUBECONFIG=~/.kube/config_k3s  kubectl get nodes
+```
